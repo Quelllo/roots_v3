@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400&family=Archivo:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-ink: #0a0a0a;
+    --color-paper: #f5f1e8;
+    --color-accent: #ff3366;
+    --color-muted: #8b8680;
+    --color-highlight: #ffeb3b;
+  }
+  
+  body {
+    @apply bg-paper text-ink font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  * {
+    @apply border-ink;
+  }
+}
+
+@layer components {
+  .text-shadow-hard {
+    text-shadow: 4px 4px 0 var(--color-accent);
+  }
+  
+  .brutalist-border {
+    border: 3px solid var(--color-ink);
+    box-shadow: 8px 8px 0 var(--color-ink);
+  }
+  
+  .brutalist-border-sm {
+    border: 2px solid var(--color-ink);
+    box-shadow: 4px 4px 0 var(--color-ink);
+  }
+  
+  .hover-lift {
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .hover-lift:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0 var(--color-ink);
+  }
+  
+  .section-grid {
+    background-image: 
+      linear-gradient(to right, rgba(10, 10, 10, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(10, 10, 10, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+}

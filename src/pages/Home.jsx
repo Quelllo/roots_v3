@@ -41,23 +41,23 @@ const Home = () => {
       <section className="section-grid py-12 md:py-20 lg:py-32 overflow-hidden">
         <Container>
           <div className="max-w-6xl">
-            <div className="mb-6 md:mb-8 animate-slide-up">
+            <div className="mb-6 md:mb-8">
               <span className="font-mono text-xs md:text-sm uppercase tracking-widest text-muted">
                 // Digital Design Agency
               </span>
             </div>
-            <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-display font-black leading-none mb-6 md:mb-8 animate-slide-up animation-delay-200">
+            <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-display font-black leading-none mb-6 md:mb-8">
               WE CREATE
               <br />
               <span className="text-accent italic">BOLD</span>
               <br />
               EXPERIENCES
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl font-sans max-w-2xl mb-8 md:mb-12 leading-relaxed animate-slide-up animation-delay-400">
+            <p className="text-lg md:text-xl lg:text-2xl font-sans max-w-2xl mb-8 md:mb-12 leading-relaxed">
               A design agency that refuses to blend in. We build digital products 
               that make people stop scrolling and start engaging.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 animate-slide-up animation-delay-600">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
               <Button to="/work" variant="primary">
                 View Portfolio
               </Button>

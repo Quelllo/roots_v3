@@ -4,43 +4,43 @@ import Card from '../components/Card';
 const Team = () => {
   const teamMembers = [
     {
-      name: 'SARAH CHEN',
-      role: 'Creative Director',
-      bio: 'Turning caffeine into pixels since 2010.',
+      name: 'LAYTH',
+      role: 'Illustrator',
+      bio: 'Turning ideas into visuals since 2003.',
       number: '01',
       accent: 'accent'
     },
     {
-      name: 'MARCUS JOHNSON',
-      role: 'Lead Developer',
+      name: 'PRANJALI',
+      role: 'Project Manager',
       bio: 'Code poet. Problem solver. Coffee addict.',
       number: '02',
       accent: 'highlight'
     },
     {
-      name: 'ELENA RODRIGUEZ',
-      role: 'UX Designer',
-      bio: 'User research enthusiast. Flow state architect.',
+      name: 'RUSHIL',
+      role: 'Game Designer',
+      bio: 'Building games and building dreams.',
       number: '03',
       accent: 'accent'
     },
     {
-      name: 'DAVID KIM',
-      role: 'Brand Strategist',
+      name: 'KAYSER',
+      role: 'Graphic Designer',
       bio: 'Finding the story behind every brand.',
       number: '04',
       accent: 'dark'
     },
     {
-      name: 'AISHA PATEL',
-      role: 'UI Designer',
+      name: 'NEHEMAIAH',
+      role: 'Researcher',
       bio: 'Pixel perfectionist. Detail obsessed.',
       number: '05',
       accent: 'highlight'
     },
     {
-      name: 'JAMES WILSON',
-      role: 'Full Stack Dev',
+      name: 'TOM',
+      role: 'Developer + Support ;)',
       bio: 'Building bridges between design and code.',
       number: '06',
       accent: 'accent'

@@ -51,7 +51,7 @@ const Footer = () => {
             © {currentYear} ROOTS AGENCY // ALL RIGHTS RESERVED
           </p>
           <p className="font-mono text-xs md:text-sm text-muted">
-            BUILT WITH <span className="text-accent">♥</span> AND CODE
+            BUILT WITH VITE, REACT AND TAILWIND CSS :D
           </p>
         </div>
       </Container>
